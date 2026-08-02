@@ -1,6 +1,8 @@
 package com.apiferreteria.ProyectoFerreteria.model;
 import jakarta.persistence.*;
 
+@Entity
+@Table(name = "productos")
 public class Producto {
 
     @Id

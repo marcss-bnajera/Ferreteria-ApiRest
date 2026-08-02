@@ -55,7 +55,7 @@ public class ProductoService implements iProductoService{
         prodExistente.setMarca(prod.getMarca());
         prodExistente.setStock(prod.getStock());
         prodExistente.setPrecio(prod.getPrecio());
-        prod.setNombre(prod.getNombre());
+        prodExistente.setNombre(prod.getNombre());
 
         return prodRepo.save(prodExistente);
     }
